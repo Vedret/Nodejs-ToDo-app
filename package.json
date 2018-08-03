@@ -1,0 +1,22 @@
+{
+  "name": "todo-net-ninja",
+  "version": "1.0.0",
+  "description": "a little todo app",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines":{
+    "node": "8.11.1"
+  },
+
+  "author": "wedret",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6"
+  }
+}
